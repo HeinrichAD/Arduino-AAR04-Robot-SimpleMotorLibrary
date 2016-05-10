@@ -1,4 +1,6 @@
 # Object files
+*.slo
+*.lo
 *.o
 *.ko
 *.obj
@@ -8,25 +10,16 @@
 *.gch
 *.pch
 
-# Libraries
+# Dynamic libraries & Shared objects (inc. Windows DLLs)
 *.lib
 *.a
+*.lai
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+# Fortran module files
+*.mod
